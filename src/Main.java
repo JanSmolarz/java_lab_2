@@ -39,7 +39,7 @@ public class Main {
 
         do (s > 0){
             System.out.println(i);
-        }/*/
+        }*/
         /* zad.3
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
