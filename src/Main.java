@@ -20,7 +20,6 @@ public class Main {
          * wprowadzanymi z klawiatury (użyć klasy Scanner), a następnie będzie wyświetlał elementy tablicy
          * za pomocą pętli forEach powiększone o 11 */
         Scanner scan = new Scanner(System.in);
-        
         int[] Table = new int[5];
 
         for (int i = 0; i < 5; i++){
