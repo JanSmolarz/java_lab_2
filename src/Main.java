@@ -78,7 +78,6 @@ public class Main {
             if(s == 5){
                 System.out.println("\n");
                 break;
-
             }
         }
 
