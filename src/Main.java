@@ -1,5 +1,3 @@
-import jdk.swing.interop.SwingInterOpUtils;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -38,10 +36,10 @@ public class Main {
         table[3] = 43;
         table[4] = 28;
         int y = 0;
-        while(y <= 5){
+        while(y < 5){
             System.out.println("table [" + y +"] = " + table[y]);
             ++y;
-            if(y >= 5){
+            if(y == 5){
                 System.out.println("\n");
                 break;
             }
@@ -56,10 +54,10 @@ public class Main {
         table_double[4] = 47.45;
 
         int z = 0;
-        while(z <= 5){
+        while(z < 5){
             System.out.println("table_double [" + z +"] = " + table_double[z]);
             ++z;
-            if(z >= 5){
+            if(z == 5){
                 System.out.println("\n");
                 break;
             }
@@ -74,10 +72,10 @@ public class Main {
         table_String[4] = "Kacper";
 
         int s = 0;
-        while(s <= 5){
+        while(s < 5){
             System.out.println("table_String [" + s +"] = " + table_String[s]);
             ++s;
-            if(s >= 5){
+            if(s == 5){
                 System.out.println("\n");
                 break;
 
@@ -88,21 +86,21 @@ public class Main {
         a) sprawdzić jak zachowuje się pętla while gdy w jej warunku damy true --> while(true)
         b) a jak gdy damy false --> while(false)
         */
-        //a)
 
+        //a)
         System.out.println(10>8);
         while(true){
             System.out.println("Prawdą jest, że 10 jest większe od 8");
             break;
         }
 
-        //b)
 
+        //b)
         /*System.out.println(1>8);
         while(false){
             System.out.println("Nieprawdą jest, że 1 jest większe od 8");
             break;
         }*/
-        //compilation error 'unreachable code'
+        //compilation error 'java: unreachable statement'
     }
 }
