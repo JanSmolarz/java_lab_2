@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    private static int[] tablica;
+    private static int[] Tablica;
 
     public static void main(String[] args) {
 
@@ -42,7 +42,48 @@ public class Main {
             "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo"
            b) oraz ma określić ile jest pozostałych liter, które nie należą do: 'o', 'p', 'x', 'z', 'q'
          */
+        String str = "ooooozjoonoxoooozoooooooooozoxooooopnpppoooiiooooomnzooooxoqoojoozoootyoooozoooxoooozooooxooooooojoooopxoooonnmooo";
 
+        int[] Tablica = {0,0,0,0,0,0,0,0,0,0,0};
+        for (char zmiennaChar : str.toCharArray()){
+            switch (zmiennaChar){
+                case 'o':
+                    ++Tablica[0];
+                    break;
+                case 'z':
+                    ++Tablica[1];
+                    break;
+                case 'j':
+                    ++Tablica[2];
+                    break;
+                case 'n':
+                    ++Tablica[3];
+                    break;
+                case 'x':
+                    ++Tablica[4];
+                    break;
+                case 'p':
+                    ++Tablica[5];
+                    break;
+                case 'i':
+                    ++Tablica[6];
+                    break;
+                case 'm':
+                    ++Tablica[7];
+                    break;
+                case 'q':
+                    ++Tablica[8];
+                    break;
+                case 't':
+                    ++Tablica[9];
+                    break;
+                case 'y':
+                    ++Tablica[10];
+                    break;
 
+            }
+        }
+        System.out.println("o: " + Tablica[0] + " razy,\n " + "p: " + Tablica[5] + " razy,\n " + "x: " + Tablica[4] + " razy,\n " + "z: " + Tablica[1] + " razy,\n " + "q: " + Tablica[8] + " razy,\n " + "inne: " + Tablica[2] + Tablica[3] + + Tablica[6] + Tablica[7] + Tablica[9] + Tablica[10] + " razy,\n ");
+   //     System.out.println("o: " + Tablica[0] + " razy,\n " + "z: " + Tablica[1] + " razy,\n " + "j: " + Tablica[2] + " razy,\n " + "n: " + Tablica[3] + " razy,\n " + "x: " + Tablica[4] + " razy,\n " + "p: " + Tablica[5] + " razy,\n " + "i: " + Tablica[6] + " razy,\n " + "m: " + Tablica[7] + " razy,\n " + "q: " + Tablica[8] + " razy,\n " + "t: " + Tablica[9] + " razy,\n " + "y: " + Tablica[10] + " razy.");
     }
 }
