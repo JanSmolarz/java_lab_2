@@ -83,7 +83,7 @@ public class Main {
 
             }
         }
-        System.out.println("o: " + Tablica[0] + " razy,\n " + "p: " + Tablica[5] + " razy,\n " + "x: " + Tablica[4] + " razy,\n " + "z: " + Tablica[1] + " razy,\n " + "q: " + Tablica[8] + " razy,\n " + "inne: " + Tablica[2] + Tablica[3] + + Tablica[6] + Tablica[7] + Tablica[9] + Tablica[10] + " razy,\n ");
-   //     System.out.println("o: " + Tablica[0] + " razy,\n " + "z: " + Tablica[1] + " razy,\n " + "j: " + Tablica[2] + " razy,\n " + "n: " + Tablica[3] + " razy,\n " + "x: " + Tablica[4] + " razy,\n " + "p: " + Tablica[5] + " razy,\n " + "i: " + Tablica[6] + " razy,\n " + "m: " + Tablica[7] + " razy,\n " + "q: " + Tablica[8] + " razy,\n " + "t: " + Tablica[9] + " razy,\n " + "y: " + Tablica[10] + " razy.");
+        int i = Tablica[2] + Tablica[3] +  Tablica[6] + Tablica[7] + Tablica[9] + Tablica[10];
+        System.out.println("o: " + Tablica[0] + " razy,\n " + "p: " + Tablica[5] + " razy,\n " + "x: " + Tablica[4] + " razy,\n " + "z: " + Tablica[1] + " razy,\n " + "q: " + Tablica[8] + " razy,\n " + "inne: " + i + " razy,\n ");
     }
 }
