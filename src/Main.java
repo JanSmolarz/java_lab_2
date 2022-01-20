@@ -12,6 +12,7 @@ public class Main {
         c) napisać metodę, która wypisze otrzymane wartości,
         d) wstawić wywołanie metody do metody main
         */
+        int[] tablica = new int[20];
 
         /* zad.2
         a) stworzyc tablicę typu String[6],
